@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>CalcularValorNutricional</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,12 +14,29 @@
     <h1>Valor Nutricional</h1>
 
     <div class="aveia">
-        <p>Gramas de aveia:</p>
+        <h2>Aveia:</h2>
         <input type="number" name="aveia" id="aveia">
-        <button onclick="calcularProteinaAveia()">Calcular</button>
-    </div>
-    <p style="display: inline;">O resultado é: </p>
-    <span id="resultado"> </span>
+        <button onclick="calcularAveia()">Calcular</button>
+    </div><br />
+    <p style="display: inline;">A quantidade de Porteína em gramas é: </p>
+    <span id="totalaveiaproteina"> </span> <br /><br />
+
+    <p style="display: inline;">A quantidade de Carboidrado em gramas é: </p>
+    <span id="totalaveiacarboidrato"> </span> <br /><br />
+
+    <p style="display: inline;">A quantidade de Gorduras Totais em gramas é: </p>
+    <span id="totalaveiagordurastotais"></span>
+
+    <h2>Cacau:</h2>
+    <div class="cacau">
+        <input type="number" name="cacau" id="cacau">
+        <button onclick="calcularCacau()">Calcular</button>
+    </div><br />
+    <p style="display: inline;">A quantidade de Proteína em gramas é: </p>
+    <span id="totalcacauproteina"></span><br /><br />
+
+    <p style="display: inline;">A quantidade de Carboidrato em gramas é: </p>
+    <span id="totalcacaucarboidrato"></span>
 </body>
 
 </html>
