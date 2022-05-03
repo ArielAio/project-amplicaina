@@ -1,27 +1,41 @@
+body{
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #e2b6ff;
+}
+.aveia p{
+    text-align: justify;    
+}
+
+
 #aveia {
     background-color: transparent;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 10px;
 }
 
 #cacau {
     background-color: transparent;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 10px;
 }
 
 #leite {
     background-color: transparent;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 10px;
 }
 
 #amendoim {
     background-color: transparent;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 10px;
 }
