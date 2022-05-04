@@ -11,66 +11,73 @@
 </head>
 
 <body>
-    <h1>Valor Nutricional</h1>
+    <div class="container">
+        <h1>Valor Nutricional</h1>
 
-    <div class="aveia">
-        <h2>Aveia:</h2>
-        <input type="number" name="aveia" id="aveia">
-        <button onclick="calcularAveia()">Calcular</button>
+        <div class="calcular">
+            <h2>Aveia:</h2>
+            <input type="number" name="aveia" id="aveia">
+            <button onclick="calcularAveia()">Calcular</button>
+            
+            <p>A quantidade de Porteína em gramas é: </p>
+            <span id="totalaveiaproteina"> </span>
+
+            <p>A quantidade de Carboidrado em gramas é: </p>
+            <span id="totalaveiacarboidrato"> </span>
+
+            <p>A quantidade de Gorduras Totais em gramas é: </p>
+            <span id="totalaveiagordurastotais"></span>
+        </div><br />
         
-        <p>A quantidade de Porteína em gramas é: </p>
-        <span id="totalaveiaproteina"> </span>
 
-        <p>A quantidade de Carboidrado em gramas é: </p>
-        <span id="totalaveiacarboidrato"> </span>
+        <div class="calcular">
+            <h2>Cacau:</h2>
+            <input type="number" name="cacau" id="cacau">
+            <button onclick="calcularCacau()">Calcular</button>
 
-        <p>A quantidade de Gorduras Totais em gramas é: </p>
-        <span id="totalaveiagordurastotais"></span>
-    </div><br />
-    
+            <p>A quantidade de Proteína em gramas é: </p>
+            <span id="totalcacauproteina"></span>
 
-    <div class="cacau">
-        <h2>Cacau:</h2>
-        <input type="number" name="cacau" id="cacau">
-        <button onclick="calcularCacau()">Calcular</button>
+            <p>A quantidade de Carboidrato em gramas é: </p>
+            <span id="totalcacaucarboidrato"></span> 
+
+            <p>A quantidade de Gorduras Totais em gramas é:</p>
+            <span id="totalcacaugordurastotais"></span>
+        </div> <br />
+        
+
+        <div  class="calcular">
+            <h2>Leite:</h2>
+            <input type="number" name="leite" id="leite">
+            <button onclick="calcularLeite()">Calcular</button>
+
+            <p>A quantidade de Proteína em gramas é:</p>
+            <span id="totalleiteproteina"></span>
+
+            <p>A quantidade de Carboidrato em gramas é:</p>
+            <span id="totalleitecarboidrato"></span>
+
+            <p>A quantidade de Gorduras Totais em gramas é:</p>
+            <span id="totalleitegordurastotais"></span>
+        </div><br />
+        
+
+
+        <div  class="calcular">
+            <h2>Amendoim:</h2>
+            <input type="number" name="amendoim" id="amendoim">
+            <button onclick="calcularAmendoim()">Calcular</button>
+
+            <p>A quantidade de Proteína em gramas é:</p>
+            <span id="totalamendoimproteina"></span>
+
+            <p>A quantidade de Carboidrato em gramas é:</p>
+            <span id="totalamendoimcarboidrato"></span>
+
+            <p>A quantidade de Gorduras Totais em gramas é:</p>
+            <span id="totalamendoimgordurastotais"></span>
+        </div>
     </div>
-    <p style="display: inline;">A quantidade de Proteína em gramas é: </p>
-    <span id="totalcacauproteina"></span><br /><br />
-
-    <p style="display: inline;">A quantidade de Carboidrato em gramas é: </p>
-    <span id="totalcacaucarboidrato"></span> <br><br />
-
-    <p style="display: inline;">A quantidade de Gorduras Totais em gramas é:</p>
-    <span id="totalcacaugordurastotais"></span>
-
-    <div class="leite">
-        <h2>Leite:</h2>
-        <input type="number" name="leite" id="leite">
-        <button onclick="calcularLeite()">Calcular</button>
-    </div><br />
-    <p style="display: inline;">A quantidade de Proteína em gramas é:</p>
-    <span id="totalleiteproteina"></span> <br /> <br />
-
-    <p style="display: inline;">A quantidade de Carboidrato em gramas é:</p>
-    <span id="totalleitecarboidrato"></span><br /><br />
-
-    <p style="display: inline;">A quantidade de Gorduras Totais em gramas é:</p>
-    <span id="totalleitegordurastotais"></span><br /><br />
-
-
-    <div class="amendoim">
-        <h2>Amendoim:</h2>
-        <input type="number" name="amendoim" id="amendoim">
-        <button onclick="calcularAmendoim()">Calcular</button>
-    </div><br />
-    <p style="display: inline;">A quantidade de Proteína em gramas é:</p>
-    <span id="totalamendoimproteina"></span> <br /> <br />
-
-    <p style="display: inline;">A quantidade de Carboidrato em gramas é:</p>
-    <span id="totalamendoimcarboidrato"></span><br /><br />
-
-    <p style="display: inline;">A quantidade de Gorduras Totais em gramas é:</p>
-    <span id="totalamendoimgordurastotais"></span><br /><br />
 </body>
 
 </html>

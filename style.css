@@ -1,40 +1,31 @@
-body{
+body {
     text-align: center;
-
     display: flex;
     align-items: center;
     flex-direction: column;
-
     background-color: #e2b6ff;
 }
-.aveia p{
-    text-align: justify;    
+
+.container {
+    background: white;
+    width: 30vw;
+    height: 100%;
+
+    margin-top: 0px;
+    padding: 25px;
+
+    border-radius: 32px;
+    box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-
-#aveia {
-    background-color: transparent;
-    border: 1px solid black;
-    border-radius: 100px;
-    padding: 10px;
+.calcular p {
+    display: inline-block;
+    text-align: justify;
+    
 }
 
-#cacau {
-    background-color: transparent;
-    border: 1px solid black;
-    border-radius: 100px;
-    padding: 10px;
-}
-
-#leite {
-    background-color: transparent;
-    border: 1px solid black;
-    border-radius: 100px;
-    padding: 10px;
-}
-
-#amendoim {
-    background-color: transparent;
+.calcular input {
+    background-color: white;
     border: 1px solid black;
     border-radius: 100px;
     padding: 10px;
