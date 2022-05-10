@@ -1,9 +1,22 @@
+
+
 body {
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #e2b6ff;
+    background-color: #b6ffba;
+    
+}
+
+button{
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: #d6ffd2;
+    color: rgb(0, 0, 0);
+    border-radius: 0.6em;
 }
 
 .container {
@@ -11,17 +24,16 @@ body {
     width: 30vw;
     height: 100%;
 
-    margin-top: 0px;
+    margin-top: 0px;    
     padding: 25px;
 
     border-radius: 32px;
     box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.calcular p {
-    display: inline-block;
-    text-align: justify;
-    
+.calcular p{
+    text-align: center;
+    display: ruby-text;
 }
 
 .calcular input {
@@ -30,3 +42,4 @@ body {
     border-radius: 100px;
     padding: 10px;
 }
+
