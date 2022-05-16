@@ -11,13 +11,13 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="container">
         <h1>Valor Nutricional</h1>
 
-        <div class="calcular">
+        <div class="calcular aveia" id="aveia-div">
             <h2>Aveia:</h2>
             <input type="number" name="aveia" id="aveia">
-            <button onclick="calcularAveia()">Calcular</button>
+            <button id="btn-aveia" onclick="calcularAveia()">Calcular</button>
 
             <p>Proteína em gramas é: </p>
             <span id="totalaveiaproteina"> </span>
@@ -28,15 +28,15 @@
             <p>Gorduras Totais em gramas é: </p>
             <span id="totalaveiagordurastotais"></span>
 
-            <p>Calorias tem kcal é:</p>
+            <p>Calorias em kcal é:</p>
             <span id="totalaveiacalorias"></span>
         </div><br />
 
 
-        <div class="calcular">
+        <div class="calcular" id="cacau-div">
             <h2>Cacau:</h2>
             <input type="number" name="cacau" id="cacau">
-            <button onclick="calcularCacau()">Calcular</button>
+            <button id="btn-cacau" onclick="calcularCacau()">Calcular</button>
 
             <p>Proteína em gramas é: </p>
             <span id="totalcacauproteina"></span>
@@ -52,10 +52,10 @@
         </div> <br />
 
 
-        <div class="calcular">
+        <div class="calcular leite" id="leite-div">
             <h2>Leite:</h2>
             <input type="number" name="leite" id="leite">
-            <button onclick="calcularLeite()">Calcular</button>
+            <button id="btn-leite" onclick="calcularLeite()">Calcular</button>
 
             <p>Proteína em gramas é:</p>
             <span id="totalleiteproteina"></span>
@@ -72,10 +72,10 @@
 
 
 
-        <div class="calcular">
+        <div class="calcular amendoim" id="amendoim-div">
             <h2>Amendoim:</h2>
             <input type="number" name="amendoim" id="amendoim">
-            <button onclick="calcularAmendoim()">Calcular</button>
+            <button id="btn-amendoim" onclick="calcularAmendoim()">Calcular</button>
 
             <p>Proteína em gramas é:</p>
             <span id="totalamendoimproteina"></span>
@@ -90,7 +90,7 @@
             <span id="totalamendoimcalorias"></span>
         </div><br />
 
-        <div class="calcular">
+        <div class="calcular" id="total-div">
             <h2>Total:</h2>
 
             <p>Total de Proteína em gramas é:</p>

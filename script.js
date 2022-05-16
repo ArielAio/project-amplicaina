@@ -34,6 +34,14 @@ function calcularAveia() {
     totalaveiacalorias.innerHTML = aveia * aveiacalo
 
     calcularTotal((aveia * aveiapro), (aveia * aveiagord), (aveia * aveiacarb), (aveia * aveiacalo))
+
+    const elementoBtn = document.getElementById("btn-aveia");
+    elementoBtn.disabled = "true" 
+
+    const elementoCacau = document.getElementById("cacau-div");
+    elementoCacau.style.visibility = "visible"
+
+    const container = (document.getElementById("container")).style.height = "100vh;"
 }
 
 function calcularCacau() {
@@ -52,6 +60,12 @@ function calcularCacau() {
     totalcacaucalorias.innerHTML = cacau + cacaucalo
 
     calcularTotal((cacau * cacaupro), (cacau * cacaugord), (cacau * cacaucarb), (cacau * cacaucalo))
+
+    const elementoBtn = document.getElementById("btn-cacau");
+    elementoBtn.disabled = "true" 
+
+    const elementoLeite = document.getElementById("leite-div");
+    elementoLeite.style.visibility = "visible"
 }
 
 function calcularLeite() {
@@ -72,6 +86,12 @@ function calcularLeite() {
 
     calcularTotal((leite * leitepro), (leite * leitegord), (leite * leitecarb), (leite * leitecalo))
 
+    const elementoBtn = document.getElementById("btn-leite");
+    elementoBtn.disabled = "true" 
+
+    const elementoAmendoim = document.getElementById("amendoim-div");
+    elementoAmendoim.style.visibility = "visible"
+
 }
 
 function calcularAmendoim() {
@@ -91,6 +111,12 @@ function calcularAmendoim() {
         totalamendoimcalorias.innerHTML = amendoim * amendoimcalo
 
         calcularTotal((amendoim * amendoimpro), (amendoim * amendoimgord), (amendoim * amendoimcarb), (amendoim * amendoimcalo))
+
+        const elementoBtn = document.getElementById("btn-amendoim");
+    elementoBtn.disabled = "true" 
+
+        const elementoTotal = document.getElementById("total-div");
+        elementoTotal.style.visibility = "visible"
 }
 
 

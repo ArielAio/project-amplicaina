@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 body {
     text-align: center;
@@ -9,20 +9,34 @@ body {
     
 }
 
+h1{
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+}
+
+h2{
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
 button{
     display: inline-block;
-    margin: 1em;
     padding: 0.5em 1em;
+    
+    padding: 10px;
     text-decoration: none;
     background-color: #d6ffd2;
     color: rgb(0, 0, 0);
-    border-radius: 0.6em;
+    border-radius: 0px 100px 100px 0px;
+    border: 1px solid black;
+
+    margin-right: 15px;
 }
 
 .container {
     background: white;
-    width: 30vw;
-    height: 100%;
+    width: 36vw;
+    height: 2150px;
 
     margin-top: 0px;    
     padding: 25px;
@@ -31,15 +45,51 @@ button{
     box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
+.calcular {
+    visibility: hidden;
+    position: absolute;
+
+    top: 15%;
+    left: 36%;
+
+}
+
+.aveia {
+    visibility: visible;
+}
+
+#cacau-div{
+    transform: translateY(65vh);
+}
+
+#leite-div{
+    transform: translateY(130vh);
+}
+
+#amendoim-div{
+    transform: translateY(195vh);
+}
+
+#total-div{
+    transform: translateY(260vh);
+}
+
+
+
 .calcular p{
     text-align: center;
-    display: ruby-text;
+    display: block;
+    font-size: 1em;
+    font-family: Poppins, sans-serif;
 }
 
 .calcular input {
     background-color: white;
     border: 1px solid black;
-    border-radius: 100px;
+    border-radius: 100px 0px 0px 100px;
     padding: 10px;
+    
+    margin-left: 90px;
+    margin-right: 5px;
 }
 
