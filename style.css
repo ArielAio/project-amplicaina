@@ -5,7 +5,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #b6ffba;
+    background-color: #B6FFBA;
     
 }
 
@@ -25,7 +25,7 @@ button{
     
     padding: 10px;
     text-decoration: none;
-    background-color: #d6ffd2;
+    background-color: #b6ffba;
     color: rgb(0, 0, 0);
     border-radius: 0px 100px 100px 0px;
     border: 1px solid black;
@@ -36,7 +36,7 @@ button{
 .container {
     background: white;
     width: 36vw;
-    height: 2150px;
+    height: 2140px;
 
     margin-top: 0px;    
     padding: 25px;
@@ -59,19 +59,22 @@ button{
 }
 
 #cacau-div{
-    transform: translateY(65vh);
+    transform: translateY(70vh);
 }
 
 #leite-div{
-    transform: translateY(130vh);
+    transform: translateY(140vh);
 }
 
 #amendoim-div{
-    transform: translateY(195vh);
+    transform: translateY(210vh);
 }
 
 #total-div{
-    transform: translateY(260vh);
+    transform: translateY(280vh);
+    position: absolute;
+    top: 15%;
+    left: 38%;
 }
 
 

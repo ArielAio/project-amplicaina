@@ -41,7 +41,8 @@ function calcularAveia() {
     const elementoCacau = document.getElementById("cacau-div");
     elementoCacau.style.visibility = "visible"
 
-    const container = (document.getElementById("container")).style.height = "100vh;"
+    //const containerFinal = document.getElementById("container-div")
+    //containerFinal.style.height = "1vh;"
 }
 
 function calcularCacau() {
