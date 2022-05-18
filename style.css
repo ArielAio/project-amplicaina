@@ -1,85 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
 body {
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #B6FFBA;
-    
+    background-color: rgba(240, 182, 255, 0.5);
+    /*antiga cor B6FFBA*/
 }
 
-h1{
+h1 {
     font-weight: 700;
     font-family: Poppins, sans-serif;
 }
 
-h2{
+h2 {
     font-weight: 500;
     font-family: Poppins, sans-serif;
 }
 
-button{
+button {
     display: inline-block;
     padding: 0.5em 1em;
-    
     padding: 10px;
     text-decoration: none;
-    background-color: #b6ffba;
+    background-color: rgb(242, 189, 255);
     color: rgb(0, 0, 0);
     border-radius: 0px 100px 100px 0px;
     border: 1px solid black;
-
     margin-right: 15px;
 }
 
 .container {
     background: white;
     width: 36vw;
-    height: 2140px;
-
-    margin-top: 0px;    
+    height: 2250px;
+    margin-top: 0px;
     padding: 25px;
-
     border-radius: 32px;
     box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .calcular {
     visibility: hidden;
-    position: absolute;
-
     top: 15%;
     left: 36%;
-
 }
 
 .aveia {
     visibility: visible;
 }
 
-#cacau-div{
-    transform: translateY(70vh);
+#cacau-div {
+    transform: translateY(2vh);
 }
 
-#leite-div{
-    transform: translateY(140vh);
+#leite-div {
+    transform: translateY(4vh);
 }
 
-#amendoim-div{
-    transform: translateY(210vh);
+#amendoim-div {
+    transform: translateY(8vh);
 }
 
-#total-div{
-    transform: translateY(280vh);
-    position: absolute;
+#total-div {
+    transform: translateY(10vh);
     top: 15%;
     left: 38%;
 }
 
-
-
-.calcular p{
+.calcular p {
     text-align: center;
     display: block;
     font-size: 1em;
@@ -91,8 +80,6 @@ button{
     border: 1px solid black;
     border-radius: 100px 0px 0px 100px;
     padding: 10px;
-    
     margin-left: 90px;
     margin-right: 5px;
 }
-
