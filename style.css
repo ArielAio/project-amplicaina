@@ -23,7 +23,7 @@ button {
     padding: 0.5em 1em;
     padding: 10px;
     text-decoration: none;
-    background-color: rgb(242, 189, 255);
+    background-color: rgba(243, 202, 255, 0.781);
     color: rgb(0, 0, 0);
     border-radius: 0px 100px 100px 0px;
     border: 1px solid black;
