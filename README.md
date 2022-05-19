@@ -1,5 +1,5 @@
 # Projeto - amplicaina
-Durantes as aulas de LPC (Laboratório de Processos Criativos) do Ensino Médio, nos foi proposto a criação de um projeto, o tema principal era "alimentos", com isso nosso grupo (Ariel, Davi, Gabriel Aguera, Higor) decidimos criar uma barra de cereal, com alta taixa de proteína.
+Durantes as aulas de LPC (Laboratório de Processos Criativos) do Ensino Médio, nos foi proposto a criação de um projeto, onde tema principal era "alimentos", com isso nosso grupo (Ariel, Davi, Gabriel Aguera, Higor) decidimos criar uma barra de cereal, com alta taixa de proteína.
 
 Em base nisso desenvolvi um simples WebSite, com a ajuda de um amigo meu (João Monção), integrante de outro grupo, no qual me auxiliou *muito* sobre como funciona o básico do 'Visual Studio Code' e suas linguagens de programação.
 
