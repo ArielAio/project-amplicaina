@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(240, 182, 255, 0.5);
+    background-color: rgba(185, 255, 182, 0.5);
     /*antiga cor B6FFBA*/
 }
 
@@ -23,7 +23,7 @@ button {
     padding: 0.5em 1em;
     padding: 10px;
     text-decoration: none;
-    background-color: rgba(243, 202, 255, 0.781);
+    background-color: rgba(202, 255, 205, 0.781);
     color: rgb(0, 0, 0);
     border-radius: 0px 100px 100px 0px;
     border: 1px solid black;
